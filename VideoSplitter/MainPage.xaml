@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="VideoSplitter.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:VideoSplitter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid BorderBrush="{ThemeResource SurfaceStrokeColorDefaultBrush}" BorderThickness="2" CornerRadius="{StaticResource OverlayCornerRadius}"
+          AllowDrop="True" Drop="MainPage_OnDrop" DragOver="MainPage_OnDragOver" Width="500" Height="500" Background="Transparent">
+        <Button Padding="10" Click="ShowFilePicker" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel>
+                <Viewbox MaxWidth="100" Margin="10">
+                    <SymbolIcon Symbol="Upload" />
+                </Viewbox>
+                <TextBlock HorizontalTextAlignment="Center" Style="{StaticResource BaseTextBlockStyle}">Add video</TextBlock>
+            </StackPanel>
+        </Button>
+        <ContentDialog Name="ErrorDialog" Title="FFMPEG not found" IsPrimaryButtonEnabled="True" PrimaryButtonText="Ok">
+            FFMPEG.exe was not found. Please ensure that it is placed in the same folder as the executable.
+        </ContentDialog>
+    </Grid>
+</Page>

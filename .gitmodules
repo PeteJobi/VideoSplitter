@@ -1,0 +1,9 @@
+[submodule "VideoSplitterBaseWinUI"]
+	path = VideoSplitterBaseWinUI
+	url = https://github.com/PeteJobi/VideoSplitterBaseWinUI.git
+[submodule "DraggerResizerWinUI"]
+	path = DraggerResizerWinUI
+	url = https://github.com/PeteJobi/DraggerResizerWinUI.git
+[submodule "VideoSplitterPageWinUI"]
+	path = VideoSplitterPageWinUI
+	url = https://github.com/PeteJobi/VideoSplitterPageWinUI.git

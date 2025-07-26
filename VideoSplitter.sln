@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoSplitter", "VideoSplitter\VideoSplitter.csproj", "{861F57FA-6747-42F9-BB01-B2588DFB9934}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "DraggerResizer", "DraggerResizerWinUI\DraggerResizer.shproj", "{26BA5B05-9F47-4FB6-873D-CA48909F653E}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VideoSplitterBase", "VideoSplitterBaseWinUI\VideoSplitterBase.shproj", "{875AC41B-16E1-4AE2-AEB6-C57576B303C6}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VideoSplitterPage", "VideoSplitterPageWinUI\VideoSplitterPage.shproj", "{F2AB1059-95A2-4A58-A3D2-A409961585DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Debug|ARM64.Build.0 = Debug|ARM64
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Debug|x64.ActiveCfg = Debug|x64
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Debug|x64.Build.0 = Debug|x64
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Debug|x64.Deploy.0 = Debug|x64
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Debug|x86.ActiveCfg = Debug|x86
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Debug|x86.Build.0 = Debug|x86
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Debug|x86.Deploy.0 = Debug|x86
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Release|ARM64.ActiveCfg = Release|ARM64
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Release|ARM64.Build.0 = Release|ARM64
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Release|ARM64.Deploy.0 = Release|ARM64
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Release|x64.ActiveCfg = Release|x64
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Release|x64.Build.0 = Release|x64
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Release|x64.Deploy.0 = Release|x64
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Release|x86.ActiveCfg = Release|x86
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Release|x86.Build.0 = Release|x86
+		{861F57FA-6747-42F9-BB01-B2588DFB9934}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96405F4B-5890-4033-AE9B-27F19C5FA983}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		DraggerResizerWinUI\DraggerResizer.projitems*{26ba5b05-9f47-4fb6-873d-ca48909f653e}*SharedItemsImports = 13
+		DraggerResizerWinUI\DraggerResizer.projitems*{861f57fa-6747-42f9-bb01-b2588dfb9934}*SharedItemsImports = 5
+		VideoSplitterBaseWinUI\VideoSplitterBase.projitems*{861f57fa-6747-42f9-bb01-b2588dfb9934}*SharedItemsImports = 5
+		VideoSplitterPageWinUI\VideoSplitterPage.projitems*{861f57fa-6747-42f9-bb01-b2588dfb9934}*SharedItemsImports = 5
+		VideoSplitterBaseWinUI\VideoSplitterBase.projitems*{875ac41b-16e1-4ae2-aeb6-c57576b303c6}*SharedItemsImports = 13
+		VideoSplitterPageWinUI\VideoSplitterPage.projitems*{f2ab1059-95a2-4a58-a3d2-a409961585db}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

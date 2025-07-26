@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "VideoSplitter (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "VideoSplitter (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
