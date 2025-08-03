@@ -81,12 +81,20 @@ namespace VideoSplitter
                     await ErrorDialog.ShowAsync();
                     return;
                 }
-                Frame.Navigate(typeof(VideoSplitterPage), new SplitterProps { FfmpegPath = ffmpegPath, VideoPath = videoPath });
+                Frame.Navigate(typeof(VideoSplitterPage), new SplitterProps { FfmpegPath = ffmpegPath, VideoPath = videoPath, TypeToNavigateTo = typeof(MainPage).FullName });
             }catch(Exception ex)
             {
                 ErrorDialog.Content = $"An error occurred while navigating to the video splitter page: {ex.Message}";
                 await ErrorDialog.ShowAsync();
                 System.Diagnostics.Debug.WriteLine($"Error navigating to VideoSplitterPage: {ex.Message}");
+            }
+        }
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            if (e.Parameter is List<string> splitFolders)
+            {
+                Console.WriteLine($"{splitFolders.Count} folders were generated");
             }
         }
     }
