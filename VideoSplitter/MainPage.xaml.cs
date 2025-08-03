@@ -39,7 +39,7 @@ namespace VideoSplitter
             if (e.DataView.Contains(StandardDataFormats.StorageItems))
             {
                 var items = await e.DataView.GetStorageItemsAsync();
-                GoToTrimmer(items[0].Path);
+                GoToSplitter(items[0].Path);
             }
         }
 
@@ -60,26 +60,34 @@ namespace VideoSplitter
             var hwnd = WinRT.Interop.WindowNative.GetWindowHandle(MainWindow.Window);
             WinRT.Interop.InitializeWithWindow.Initialize(filePicker, hwnd);
             var file = await filePicker.PickSingleFileAsync();
-            GoToTrimmer(file.Path);
+            GoToSplitter(file.Path);
         }
 
-        private async void GoToTrimmer(string videoPath)
+        private async void GoToSplitter(string videoPath)
         {
-            var ffmpegPath = string.Empty;
             try
             {
-                ffmpegPath = Path.Join(Package.Current.InstalledLocation.Path, "Assets/ffmpeg.exe");
-            }
-            catch (InvalidOperationException)
+                string ffmpegPath;
+                try
+                {
+                    ffmpegPath = Path.Join(Package.Current.InstalledLocation.Path, "Assets/ffmpeg.exe");
+                }
+                catch (InvalidOperationException)
+                {
+                    ffmpegPath = "Assets/ffmpeg.exe";
+                }
+                if (!File.Exists(ffmpegPath))
+                {
+                    await ErrorDialog.ShowAsync();
+                    return;
+                }
+                Frame.Navigate(typeof(VideoSplitterPage), new SplitterProps { FfmpegPath = ffmpegPath, VideoPath = videoPath });
+            }catch(Exception ex)
             {
-                ffmpegPath = "Assets/ffmpeg.exe";
-            }
-            if (!File.Exists(ffmpegPath))
-            {
+                ErrorDialog.Content = $"An error occurred while navigating to the video splitter page: {ex.Message}";
                 await ErrorDialog.ShowAsync();
-                return;
+                System.Diagnostics.Debug.WriteLine($"Error navigating to VideoSplitterPage: {ex.Message}");
             }
-            Frame.Navigate(typeof(VideoSplitterPage), new SplitterProps { FfmpegPath = ffmpegPath, VideoPath = videoPath });
         }
     }
 }

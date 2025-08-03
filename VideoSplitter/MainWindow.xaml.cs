@@ -32,6 +32,7 @@ namespace VideoSplitter
             InitializeComponent();
             AppWindow.Resize(new SizeInt32(1800, AppWindow.Size.Height));
             WindowFrame.Navigate(typeof(MainPage));
+            AppWindow.SetTitleBarIcon("Assets/EncircledPIERound.ico");
         }
     }
 }
