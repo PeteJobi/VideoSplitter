@@ -85,7 +85,7 @@
     <AppxSymbolPackageEnabled>False</AppxSymbolPackageEnabled>
     <GenerateTestArtifacts>True</GenerateTestArtifacts>
     <AppxBundle>Never</AppxBundle>
-    <AppInstallerUri>C:\Users\Peter Egunjobi\Videos\NVIDIA\The Last of Us™ Part II Remastered\The Last of Us™ Part II Remastered 2025.07.27 - 01.36.58.07.DV</AppInstallerUri>
+    <AppInstallerUri>C:\</AppInstallerUri>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
   </PropertyGroup>
   <ItemGroup>
