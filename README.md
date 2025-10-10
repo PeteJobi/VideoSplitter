@@ -37,3 +37,5 @@ When you're done creating and refining ranges, click the "**Split!**" button to 
 The output files will be located in a folder created in the same folder as the input file. This folder will have the same file name as the input file with "__SplitVideos_" appended to it. Be warned that if such a folder exists, it will be deleted.
 
 Click the **Go back** button to return to the file selection page.
+
+You can merge back split video files with programs like [ConcatMedia](https://github.com/PeteJobi/ConcatMedia).
