@@ -9,7 +9,7 @@
             <ResourceDictionary.MergedDictionaries>
                 <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
                 <!-- Other merged dictionaries here -->
-                <ResourceDictionary Source="Resources/Dictionary.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="Resources/SplitDictionary.xaml"></ResourceDictionary>
                 <videoSplitterResources:Templates/>
             </ResourceDictionary.MergedDictionaries>
             <!-- Other app resources here -->
