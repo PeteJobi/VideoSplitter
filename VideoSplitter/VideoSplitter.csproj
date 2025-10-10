@@ -105,4 +105,5 @@
   <Import Project="..\DraggerResizerWinUI\DraggerResizer.projitems" Label="Shared" />
   <Import Project="..\VideoSplitterBaseWinUI\VideoSplitterBase.projitems" Label="Shared" />
   <Import Project="..\VideoSplitterPageWinUI\VideoSplitterPage.projitems" Label="Shared" />
+  <Import Project="..\TimelineWinUI\Timeline.projitems" Label="Shared" />
 </Project>

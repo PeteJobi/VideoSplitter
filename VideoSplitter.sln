@@ -11,6 +11,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VideoSplitterBase", "VideoS
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "VideoSplitterPage", "VideoSplitterPageWinUI\VideoSplitterPage.shproj", "{F2AB1059-95A2-4A58-A3D2-A409961585DB}"
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Timeline", "TimelineWinUI\Timeline.shproj", "{8A87FF88-D9FA-499F-971F-6A8B191EB7C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -49,9 +51,11 @@ Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		DraggerResizerWinUI\DraggerResizer.projitems*{26ba5b05-9f47-4fb6-873d-ca48909f653e}*SharedItemsImports = 13
 		DraggerResizerWinUI\DraggerResizer.projitems*{861f57fa-6747-42f9-bb01-b2588dfb9934}*SharedItemsImports = 5
+		TimelineWinUI\Timeline.projitems*{861f57fa-6747-42f9-bb01-b2588dfb9934}*SharedItemsImports = 5
 		VideoSplitterBaseWinUI\VideoSplitterBase.projitems*{861f57fa-6747-42f9-bb01-b2588dfb9934}*SharedItemsImports = 5
 		VideoSplitterPageWinUI\VideoSplitterPage.projitems*{861f57fa-6747-42f9-bb01-b2588dfb9934}*SharedItemsImports = 5
 		VideoSplitterBaseWinUI\VideoSplitterBase.projitems*{875ac41b-16e1-4ae2-aeb6-c57576b303c6}*SharedItemsImports = 13
+		TimelineWinUI\Timeline.projitems*{8a87ff88-d9fa-499f-971f-6a8b191eb7c5}*SharedItemsImports = 13
 		VideoSplitterPageWinUI\VideoSplitterPage.projitems*{f2ab1059-95a2-4a58-a3d2-a409961585db}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal
