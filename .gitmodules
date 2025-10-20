@@ -10,3 +10,6 @@
 [submodule "TimelineWinUI"]
 	path = TimelineWinUI
 	url = https://github.com/PeteJobi/TimelineWinUI.git
+[submodule "WinUIShared"]
+	path = WinUIShared
+	url = https://github.com/PeteJobi/WinUIShared.git
