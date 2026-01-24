@@ -106,4 +106,5 @@
   <Import Project="..\VideoSplitterPageWinUI\VideoSplitterPage.projitems" Label="Shared" />
   <Import Project="..\TimelineWinUI\Timeline.projitems" Label="Shared" />
   <Import Project="..\WinUIShared\WinUIShared.projitems" Label="Shared" />
+  <Import Project="..\TextToTimeSpanWinUI\TextToTimeSpan.projitems" Label="Shared" />
 </Project>
