@@ -13,3 +13,6 @@
 [submodule "WinUIShared"]
 	path = WinUIShared
 	url = https://github.com/PeteJobi/WinUIShared.git
+[submodule "TextToTimeSpanWinUI"]
+	path = TextToTimeSpanWinUI
+	url = https://github.com/PeteJobi/TextToTimeSpanWinUI.git
