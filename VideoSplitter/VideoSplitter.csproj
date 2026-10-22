@@ -97,6 +97,9 @@
     <Page Remove="C:\Users\Peter Egunjobi\source\repos\PeteJobi\VideoSplitter\VideoSplitterPage\Resources\ResourceDictionary.xaml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FileLogger\FileLogger\FileLogger.csproj" />
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
     </Page>
