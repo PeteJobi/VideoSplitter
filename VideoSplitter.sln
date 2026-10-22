@@ -15,7 +15,7 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Timeline", "TimelineWinUI\T
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WinUIShared", "WinUIShared\WinUIShared.shproj", "{EAEDEDF3-CC91-4D2B-8476-35DD81F8D00A}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TextToTimeSpan", "..\VideoCropper\TextToTimeSpanWinUI\TextToTimeSpan.shproj", "{8473885D-BD20-4CD5-9848-93DFF6689070}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TextToTimeSpan", "TextToTimeSpanWinUI\TextToTimeSpan.shproj", "{8473885D-BD20-4CD5-9848-93DFF6689070}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileLogger", "FileLogger\FileLogger\FileLogger.csproj", "{972BDDBA-E3B9-0A2F-B257-C1D0B9828BD4}"
 EndProject
@@ -68,9 +68,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		DraggerResizerWinUI\DraggerResizer.projitems*{26ba5b05-9f47-4fb6-873d-ca48909f653e}*SharedItemsImports = 13
-		..\VideoCropper\TextToTimeSpanWinUI\TextToTimeSpan.projitems*{8473885d-bd20-4cd5-9848-93dff6689070}*SharedItemsImports = 13
-		..\VideoCropper\TextToTimeSpanWinUI\TextToTimeSpan.projitems*{861f57fa-6747-42f9-bb01-b2588dfb9934}*SharedItemsImports = 5
+		TextToTimeSpanWinUI\TextToTimeSpan.projitems*{8473885d-bd20-4cd5-9848-93dff6689070}*SharedItemsImports = 13
 		DraggerResizerWinUI\DraggerResizer.projitems*{861f57fa-6747-42f9-bb01-b2588dfb9934}*SharedItemsImports = 5
+		TextToTimeSpanWinUI\TextToTimeSpan.projitems*{861f57fa-6747-42f9-bb01-b2588dfb9934}*SharedItemsImports = 5
 		TimelineWinUI\Timeline.projitems*{861f57fa-6747-42f9-bb01-b2588dfb9934}*SharedItemsImports = 5
 		VideoSplitterBaseWinUI\VideoSplitterBase.projitems*{861f57fa-6747-42f9-bb01-b2588dfb9934}*SharedItemsImports = 5
 		VideoSplitterPageWinUI\VideoSplitterPage.projitems*{861f57fa-6747-42f9-bb01-b2588dfb9934}*SharedItemsImports = 5
