@@ -16,3 +16,6 @@
 [submodule "TextToTimeSpanWinUI"]
 	path = TextToTimeSpanWinUI
 	url = https://github.com/PeteJobi/TextToTimeSpanWinUI.git
+[submodule "FileLogger"]
+	path = FileLogger
+	url = https://github.com/PeteJobi/FileLogger.git
