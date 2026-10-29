@@ -26,13 +26,13 @@ namespace VideoSplitter
     /// </summary>
     public sealed partial class MainWindow : Window
     {
-        public static Window Window;
         public MainWindow()
         {
             InitializeComponent();
             AppWindow.Resize(new SizeInt32(1800, AppWindow.Size.Height));
-            WindowFrame.Navigate(typeof(MainPage));
-            AppWindow.SetTitleBarIcon("Assets/EncircledPIERound.ico");
+            ExtendsContentIntoTitleBar = true;
+            SetTitleBar(WindowRoot.TitleBar);
+            WindowRoot.Frame.Navigate(typeof(MainPage), WindowRoot.TitleBar);
         }
     }
 }
