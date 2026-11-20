@@ -1,7 +1,8 @@
 # Video Splitter
 This repo provides a Windows desktop application for splitting or cutting up videos. Only supports Windows 10 and 11 (not tested on other versions of Windows). Powered by FFMPEG.
 
-<img width="1791" height="1023" alt="Screenshot 2025-07-28 104435" src="https://github.com/user-attachments/assets/50673a4b-dd0a-4551-ac4a-bc13a9d59c06" />
+<img width="1740" height="1016" alt="Screenshot 2026-10-26 194252" src="https://github.com/user-attachments/assets/72a88796-73d8-4898-896f-8c189d2872e8" />
+
 
 ## How to build
 You need to have at least .NET 9 runtime installed to build the software. Download the latest runtime [here](https://dotnet.microsoft.com/en-us/download). If you're not sure which one to download, try [.NET 9.0 Version 9.0.203](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-9.0.203-windows-x64-installer)
